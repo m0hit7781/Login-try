@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:  #FFFAFA;
+}
+
+.login{
+    /* background: orange; */
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+  /* margin: -50px 0 0 -50px; */
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+form{
+    /* text-align: center; */
+    background: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* border: 1px solid; */
+    /* box-shadow: 1px 1px 1px 1px #ccc;   */
+}
+
+label{
+    font-weight: bold;
+    margin-top: 10px;
+    background: white;
+}
+
+input{
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 4px #ccc;
+    background: rgb(254, 254, 254);
+}
+
+#butt{
+    background-color: rgb(22, 188, 235);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.f-pass{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
